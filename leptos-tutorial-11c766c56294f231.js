@@ -201,7 +201,7 @@ function makeMutClosure(arg0, arg1, dtor, f) {
     return real;
 }
 function __wbg_adapter_18(arg0, arg1, arg2) {
-    wasm._dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__hbb5ba851643ef0aa(arg0, arg1, addHeapObject(arg2));
+    wasm._dyn_core__ops__function__FnMut__A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h5a565b0ae68130b1(arg0, arg1, addHeapObject(arg2));
 }
 
 function __wbg_adapter_21(arg0, arg1, arg2) {
@@ -508,8 +508,8 @@ function __wbg_get_imports() {
     imports.wbg.__wbindgen_throw = function(arg0, arg1) {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
-    imports.wbg.__wbindgen_closure_wrapper73 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 17, __wbg_adapter_18);
+    imports.wbg.__wbindgen_closure_wrapper228 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 28, __wbg_adapter_18);
         return addHeapObject(ret);
     };
     imports.wbg.__wbindgen_closure_wrapper1275 = function(arg0, arg1, arg2) {
@@ -554,7 +554,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('inqizit-37389155fc4d1d2e_bg.wasm', import.meta.url);
+        input = new URL('leptos-tutorial-11c766c56294f231_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
