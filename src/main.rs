@@ -16,7 +16,8 @@ fn App() -> impl IntoView {
             }
             // the class: syntax reactively updates a single class
             // here, we'll set the `red` class when `count` is odd
-            class:red=move || count.get() % 2 == 1
+            class=("text-4xl  blue-100")
+            class=("red", move || count.get() % 2 == 1)
         >
             "Click me"
         </button>
